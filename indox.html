@@ -1,0 +1,229 @@
+<link rel="icon" type="image/x-icon" href="icon.png">
+
+    <section>
+        <header class="main-header">
+            <img src="icon.png" alt="Site Icon" class="header-icon">
+            <h1 class="header-title">Magsasaka ng Bayan</h1>
+        </header>
+    
+        <style>
+            .main-header {
+                background-color: #006400;
+                padding: 20px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                max-height: 17px; /* Sets maximum height */
+                overflow: hidden; /* Hides overflow if content exceeds max height */
+                flex-wrap: nowrap; /* Prevents content from wrapping */
+            }
+    
+            .header-icon {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin: 5px 15px 5px 5px; /* 5px from the top and left */
+            }
+    
+            .header-title {
+                color: rgb(189, 202, 117);
+                font-size: 20px;
+                font-family: 'Times New Roman';
+                flex-grow: 1;
+                white-space: nowrap; /* Prevents title text from wrapping to a new line */
+                overflow: hidden;
+                text-overflow: ellipsis; /* Adds ellipsis if the text overflows */
+            }
+    
+            /* Responsive Breakpoints */
+            @media (max-width: 768px) {
+                .header-title {
+                    font-size: 18px;
+                }
+                .header-icon {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+    
+            @media (max-width: 480px) {
+                .main-header {
+                    padding: 10px;
+                }
+                .header-title {
+                    font-size: 16px;
+                }
+                .header-icon {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        </style>
+    </section>
+    
+
+
+
+
+
+
+
+<style>
+    /* Page Background */
+    body {
+        background-color: #f4f4f4; /* Replace with your desired color */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Image Styling */
+    .responsive-image {
+      aspect-ratio: 0.73;
+      object-fit: contain;
+      object-position: center;
+      width: 100%;
+      max-width: 750px;
+    }
+
+    /* Centering and Responsiveness for Container */
+    .builder-override {
+      max-width: 100%;
+      padding: 120px 10px 10px; /* Adds padding at top and sides */
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+
+    /* Accessibility */
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 768px) {
+      .responsive-image {
+        max-width: 100%;
+      }
+      .builder-override {
+        padding: 20px 5px; /* Reduces padding for smaller screens */
+      }
+    }
+</style>
+
+<section class="builder-override">
+    <img 
+         loading="lazy" 
+         src="https://cdn.builder.io/api/v1/image/assets/TEMP/3017534cdd4cbf4c5078bf4e09a4391d46a4bf6b5da5b24c4d69e7f92d20b541?placeholderIfAbsent=true&apiKey=ac85bf142d764de8968054eaa9851911" 
+         alt="Content image"
+         class="responsive-image" />
+</section>
+
+
+
+<style>
+    /* Page Background */
+    body {
+        background-color: #f4f4f4; /* Replace with your desired color */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Image Styling */
+    .content-image {
+        aspect-ratio: 0.71;
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        max-width: 750px;
+    }
+
+    /* Centering and Responsiveness for Container */
+    .image-section {
+        max-width: 100%;
+        padding: 120px 10px 10px; /* Adds padding at top and sides */
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 768px) {
+        .content-image {
+            max-width: 100%; /* Image scales to full width on smaller screens */
+        }
+        .image-section {
+            padding: 20px 5px; /* Reduces padding for smaller screens */
+        }
+    }
+</style>
+
+<section class="image-section">
+    <img loading="lazy" 
+         src="https://cdn.builder.io/api/v1/image/assets/TEMP/9414dc753356896b82b9a3aec58be5e5ea435af85821328777f39aaf133c78f4?placeholderIfAbsent=true&apiKey=ac85bf142d764de8968054eaa9851911" 
+         alt="Content image" 
+         class="content-image"
+    />
+</section>
+
+
+<style>
+    /* Page Background */
+    body {
+        background-color: #f4f4f4; /* Replace with your desired color */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Image Styling */
+    .content-image {
+        aspect-ratio: 0.71;
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        max-width: 750px; /* Set a max width for the image */
+    }
+
+    /* Centering and Responsiveness for Container */
+    .image-section {
+        max-width: 100%;
+        padding: 120px 10px 10px; /* Adds padding at top and sides */
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 768px) {
+        .content-image {
+            max-width: 100%; /* Image scales to full width on smaller screens */
+        }
+        .image-section {
+            padding: 20px 5px; /* Reduces padding for smaller screens */
+        }
+    }
+</style>
+
+<section class="image-section">
+    <img loading="lazy" 
+         src="https://cdn.builder.io/api/v1/image/assets/TEMP/c4076a9ad0a70e9b78606f85d874e54367fd57e16ecb196a6251ede8a5d1ad17?placeholderIfAbsent=true&apiKey=ac85bf142d764de8968054eaa9851911" 
+         alt="Content image" 
+         class="content-image"
+    />
+</section>
